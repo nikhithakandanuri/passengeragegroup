@@ -1,0 +1,24 @@
+public class PassengerAgeGroups{
+public static void main(String args[]){
+int[]ageGroups= new int[6];
+int[] passengerAges={23,45,12,36,17,46,3,31,9,60,1};
+for(int age:passengerAges){
+if(age<=10){
+ageGroups[0]++;
+}
+elseif(age>10&&age<=20){
+ageGroups[1]++;
+}
+elseif(age>20&&age<=30){
+ageGroups[1]++;
+}
+elseif(age>30&&age<=40){
+ageGroups[1]++;
+}
+elseif(age>40&&age<=50){
+ageGroups[1]++;
+}
+else{
+ageGroups[5]++
+}
+}
